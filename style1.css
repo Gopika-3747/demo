@@ -1,0 +1,89 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    color:white;
+    
+   
+}
+#navbar {
+    height:60px;
+    background-color: black;
+    border:10px 10px 10px 10px;
+    border-style: solid;
+    border-color:white;
+    
+}
+#logo{
+    color:orange;
+    font-size:25px;
+    
+}
+body {
+    background-color: lightpink;
+}
+button{
+    background-color:orange;
+    
+}
+a{
+    margin-right:190px;
+    text-decoration: none;
+}
+/*<div id="navbar">
+        <a href="#" id="logo">amazon.in</a>
+        <a href="#">Account</a>
+        <a href="#">My cart</a>
+        <a href="#">Contact us</a>
+        <input placeholder="search Amazon.in">
+        <button>Search</button>
+        
+
+    </div>
+    ---------------------------------------------
+     <h1>Flexbox Playground</h1>
+    <div id="container">
+        <div id="box1">box1</div>
+        <div id="box2">box2</div>
+        <div id="box3">box3</div>
+        <div id="box4">box4</div>
+        <div id="box5">box5</div>
+    </div>
+    ----------------css-style--------------------------
+    body{
+    text-align:center;
+}
+
+div{
+    height:50px;
+    width:500px;
+    display:inline-block;
+    border: 2px solid black;
+}
+#container {
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: display-between;
+    align-items: flex-end;
+    
+}
+
+#box1 {
+    background-color:aqua;
+}
+#box2 {
+    background-color: blueviolet;
+}
+#box3 {
+    background-color: palevioletred;
+}
+#box4 {
+    background-color: peru;
+}
+#box5 {
+    background-color: chartreuse;
+}
+    */
