@@ -4,30 +4,93 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome</title>
+    <link rel="stylesheet" href="style1.css">
 </head>
 <body>
-    <table border="5">
-        <tr>
-        <td>name</td>
-        <td>class</td>
-        <td>rollno</td>
-        <td>course</td>
+    <h1>FORMS</h1>
+<br>
+<form action="response.html" target="_blank">
+   <label for="">Username: </label><input type="text" name="username" placeholder="enter your name" required>
+<br><br>
+   <label for="">Email: </label><input type="email" name="email" placeholder="enter your emailid"required>
+   <br><br>
+   <label for="">Password: </label><input type="password" name="password" placeholder="enter password"required>
+   <br><br>
+   <label>Mobile number: </label><input type="tel" name="mobile" placeholder="enter your number"required>
+   <br><br>
+   <label>DOB: </label><input type="date" name="dob"required>
+   <br><br>
+   <label>File: </label><input type="file" name="files">
+   <br><br>
+   <label for="">hobbies: </label>
+   <input type="checkbox" name="hobbies">Singing
+   <input type="checkbox" name="hobbies">Dancing
+   <input type="checkbox" name="hobbies">Drawing
+   <br><br>
+   <label for="">Gender: </label>
+   <input type="radio" name="gender">Female
+   <input type="radio" name="gender">Male
+   <br><br>
+   <textarea name="comments" id="one" placeholder="comment your opinion"></textarea>
+   <br><br>
+   <label for="">Subject: </label>
+   <select name="Subject" id="">
+    <option value="">CAO</option>
+    <option value="">MP</option>
+    <option value="">AMM</option>
+   </select>
+   <br><br>
+   <input type="submit" value="Register">
+   <input type="reset" value="Clear">
+   <input type="button" value="OK">
+   <button>Submit</button>
+</form>
+
+
+
+
+
+
+
+
+
+<h1>CSS</h1>
+<h2>welcome!</h2>
+    <table class="tab" border="1">
+        <caption>Student details</caption>
+        <tr >
+        <th>name</th>
+        <th>class</th>
+        <th>rollno</th>
+        <th>course</th>
         </tr>
 
         <tr>
-            <td>name</td>
-            <td>class</td>
-            <td>rollno</td>
-            <td>course</td>
+            <td>gopika</td>
+            <td rowspan="2">csb</td>
+            <td>100</td>
+            <td>ml</td>
             </tr>
 
             <tr>
-                <td>name</td>
-                <td>class</td>
-                <td>rollno</td>
-                <td>course</td>
+                <td>vivek</td>
+                <td>102</td>
+                <td>web</td>
+               
                 </tr>
-    </table>
-</body>
-</html>
 
+            <tr>
+                <td>anitha</td>
+                <td>csa</td>
+                <td>104</td>
+                <td>ml</td>
+            </tr>
+               
+    </table>
+    <a href="https://www.google.co.in" target="_blank">workit</a>    
+ 
+   <p class="par"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse molestias dignissimos eum aspernatur magnam nostrum. Tenetur, nam. Saepe, id vero illo possimus quidem iure nisi quas, eligendi culpa dicta deleniti.</p>
+<br><br>
+ <font color="red"><marquee behavior= "" direction="" bgcolor="yellow" scrollamount="5">copyrights there!</marquee>
+ </font></body>
+</html>

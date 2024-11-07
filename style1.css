@@ -2,8 +2,8 @@
 * {
     padding: 0;
     margin: 0;
-    color:white;
-    
+   font-family: 'Times New Roman';
+    box-sizing: border-box;
    
 }
 #navbar {
@@ -12,16 +12,14 @@
     border:10px 10px 10px 10px;
     border-style: solid;
     border-color:white;
-    
+    color: white;
 }
 #logo{
     color:orange;
     font-size:25px;
     
 }
-body {
-    background-color: lightpink;
-}
+
 button{
     background-color:orange;
     
@@ -29,6 +27,47 @@ button{
 a{
     margin-right:190px;
     text-decoration: none;
+}
+
+h1 ,h2{
+    text-align: center;
+    margin-top: 25px;
+    border: 2px outset pink;
+    
+}
+
+.tab {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+    box-shadow: 3px 5px 10px rgb(92, 92, 120) ;
+}
+
+.par {
+    background-color: rgb(189, 90, 90);
+    border: 2px solid yellow;
+    text-align: justify;
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px 10px 10px 10px;
+    line-height: 30px;
+    box-shadow: 3px 5px 30px blue ;
+}
+a:visited {
+    color: rgb(43, 226, 113);
+}
+
+a:link {
+    color: beige;
+}
+a:active{
+    color: darkorange;
+}
+#one {
+    height:60px;
+    width: 600px;
 }
 /*<div id="navbar">
         <a href="#" id="logo">amazon.in</a>
